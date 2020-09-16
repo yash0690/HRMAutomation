@@ -49,8 +49,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="-1180" y="867" key="FileChooserDialogImpl" timestamp="1600220651728">
       <screen x="-1920" y="532" width="1920" height="1160" />
+=======
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1600220657290">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600220657290" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1600216961615">
+      <screen x="0" y="0" width="1920" height="1040" />
+>>>>>>> 6edf0ff81776fe93433ab4de66ce04f0803139a7
     </state>
     <state x="-1180" y="867" key="FileChooserDialogImpl/-1920.532.1920.1160/0.0.1920.1160@-1920.532.1920.1160" timestamp="1600220651728" />
     <state x="-1459" y="713" key="SettingsEditor" timestamp="1600221044593">
