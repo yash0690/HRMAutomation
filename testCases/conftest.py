@@ -11,6 +11,8 @@ def setup(browser):
         print("launching firefox browser")
     else:
         driver = webdriver.Chrome(executable_path="c:\\chromedriver.exe")
+
+    driver.maximize_window()
     return driver
 
 # get the value from CLI / hook

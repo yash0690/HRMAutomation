@@ -1,7 +1,8 @@
 import pytest
 from selenium import webdriver
 
-#from PageObjects.LoginPage import LoginPage
+
+from PageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 #NamingConvention: Test_ID_nameoftestcase
@@ -21,3 +22,10 @@ class Test_001_Login():
         # Launching application
         self.driver.get(self.baseURL)
         # creating an object:
+        self.lp = LoginPage(self.driver)
+        self.lp.setUserName(self.username)
+        self.lp.setPassword(self.password)
+        self.lp.clickLogin()
+
+
+
