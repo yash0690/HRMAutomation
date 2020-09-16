@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2242050-b155-432d-b9e2-eb6b716b1b00" name="Default Changelist" comment="" />
+    <list default="true" id="e2242050-b155-432d-b9e2-eb6b716b1b00" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/HRMAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HRMAutomation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configurations/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Swathi2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Swathi2.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nopcommerceApp" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -43,9 +49,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="162" key="SettingsEditor" timestamp="1600216961615">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1180" y="867" key="FileChooserDialogImpl" timestamp="1600220651728">
+      <screen x="-1920" y="532" width="1920" height="1160" />
     </state>
+    <state x="-1180" y="867" key="FileChooserDialogImpl/-1920.532.1920.1160/0.0.1920.1160@-1920.532.1920.1160" timestamp="1600220651728" />
+    <state x="-1459" y="713" key="SettingsEditor" timestamp="1600221044593">
+      <screen x="-1920" y="532" width="1920" height="1160" />
+    </state>
+    <state x="-1459" y="713" key="SettingsEditor/-1920.532.1920.1160/0.0.1920.1160@-1920.532.1920.1160" timestamp="1600221044593" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600216961615" />
   </component>
 </project>
