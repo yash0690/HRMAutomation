@@ -4,6 +4,9 @@
 #Enter all the new user details and click on SAVE
 import time
 
+from selenium.webdriver.support.select import Select
+
+from PageObjects.AddUserPage import AddUserPage
 from PageObjects.AdminMenuPage import AdminMenu
 from PageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
@@ -33,6 +36,22 @@ class Test_002_Addnewuser():
         self.am.clickAdmin()
         self.am.clickUserManagement()
         self.am.clickUsers()
+        time.sleep(10)
+
+        #creating an object for AddUserPage
+
+        self.au = AddUserPage(self.driver)
+        self.au.clickAdd()
         time.sleep(5)
+        self.au.setEmployeeName("Adella Lopez")
+        time.sleep(5)
+        self.au.setEmployeeUserName("hvhsjdb")
+        #time.sleep(3)
+        #dropdown = Select(self.au.setEssRoledropdown())
+        #time.sleep(3)
+        #dropdown.select_by_visible_text("Default ESS")  # by option what you are seeing on screen
+        self.au.setEmployeePassword("ABCabc123$")
+        self.au.setEmployeeConfirmPassword("ABCabc123$")
+        self.au.clickSave()
 
 
