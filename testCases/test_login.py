@@ -23,8 +23,11 @@ class Test_001_Login():
         self.driver.get(self.baseURL)
         # creating an object:
         self.lp = LoginPage(self.driver)
+        self.logger.info("****Entering Username*****")
         self.lp.setUserName(self.username)
+        self.logger.info("****Entering Password*****")
         self.lp.setPassword(self.password)
+        self.logger.info("****Clicking on Login*****")
         self.lp.clickLogin()
 
 
